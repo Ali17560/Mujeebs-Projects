@@ -1,5 +1,7 @@
 package edu.monmouth.hw3;
-
+class BookException extends Exception{
+	
+}
 public class Book<BookTypes> {
     private int numberOfPages;
     private double price;
